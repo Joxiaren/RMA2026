@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Vjezbe3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+
+    <style name="Theme.Vjezbe3" parent="Base.Theme.Vjezbe3" />
+
+    <style name="Button.Positive" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+    </style>
+    <style name="Button.Negative" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+    </style>
+</resources>
